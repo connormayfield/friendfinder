@@ -1,12 +1,12 @@
-/* route for "/survey" and other urls */
+/* ROUTES */
 module.exports = function(app, path) {
 
-    /* response for get method of /survey */
+    /* RESPONSE FOR GET METHOD (SURVEY) */
     app.get("/survey",function(req,res) {
         res.sendFile(path.join(__dirname,"../public/survey.html"));
     });
 
-    /* response for get method of the other url */
+    /* RESPONSE FOR GET METHOD*/
     app.get("/*",function(req,res) {
         res.sendFile(path.join(__dirname,"../public/home.html"));
     });

@@ -1,22 +1,22 @@
-/* getting data */
+/* GETTING DATA */
 var friendArray=require("../data/friends.js");
 
-/* route for "api/friends" */
+/* ROUTE FOR /FRIENDS */
 module.exports = function(app) {
 
-    /* response for get method of /api/friends */
+
     app.get("/api/friends",function(req,res) {
         res.json(friendArray);
     });
 
-    /* response for post method (form information) */
+    /* POST METHOD RESPONSE */
     app.post("/api/friends",function(req,res) {
         var newFriend=req.body;
         newFriend.scores=newFriend.scores.map(score=>parseInt(score));
         var matchFriend;
         var match;
         var totalDifference=0;
-        /* find the best friend */
+        /* FIND MATCH */
         for(var i=0;i<friendArray.length;i++) {
             for(var j=0;j<friendArray[i].scores.length;j++) {
                 totalDifference=totalDifference+Math.abs(friendArray[i].scores[j]-newFriend.scores[j]);
