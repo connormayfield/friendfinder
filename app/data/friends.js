@@ -1,7 +1,7 @@
 var friendArray=[
   {
-      "name":"Joy",
-      "photo":"https://i.pinimg.com/originals/b0/96/6b/b0966b8143669aa19c5a46a47c4bce0c.jpg",
+      "name":"Elmo",
+      "photo":"https://www.specialdaysofthemonth.com/wp-content/uploads/2018/01/elmo.jpg",
       "scores":[
           1,
           1,
@@ -16,8 +16,8 @@ var friendArray=[
         ]
   },
   {
-      "name":"Yeri",
-      "photo":"https://i.pinimg.com/736x/a6/d3/eb/a6d3eb713edef1b7db2ce19b09a3d38f.jpg",
+      "name":"Big Bird",
+      "photo":"https://i.ytimg.com/vi/3OYuJKvr9f4/maxresdefault.jpg",
       "scores":[
           2,
           2,
@@ -32,8 +32,8 @@ var friendArray=[
         ]
   },
   {
-      "name":"Seulgi",
-      "photo":"https://pbs.twimg.com/media/CbqXZelUsAAsLFT.jpg",
+      "name":"Cookie Monster",
+      "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd9lMzgU895l4dufFc15qzRHzvpWhjLftBON8TU0252KOkPJjVUw",
       "scores":[
           3,
           3,
@@ -48,8 +48,8 @@ var friendArray=[
         ]
   },
   {
-      "name":"Wendy",
-      "photo":"https://img.kpopmap.com/2019/01/red-velvet-wendy-hair-cut-6.jpg",
+      "name":"Oscar the grouch",
+      "photo":"https://vignette.wikia.nocookie.net/muppet/images/5/5f/OscarsClassicStare.jpg/revision/latest?cb=20120222062511",
       "scores":[
           4,
           4,
@@ -64,8 +64,8 @@ var friendArray=[
         ]
   },
   {
-      "name":"Irene",
-      "photo":"http://kpoprookies.com/wp-content/uploads/2015/10/Red-Velvet-Irene-Member-Profile-and-Facts-1.png",
+      "name":"Count von Count",
+      "photo":"https://i.etsystatic.com/10775770/r/il/96fbe7/835881321/il_794xN.835881321_tk72.jpg",
       "scores":[
           5,
           5,
